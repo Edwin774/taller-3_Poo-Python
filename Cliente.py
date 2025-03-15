@@ -30,3 +30,7 @@ class cliente:
     
     def mostrar_info_cliente(self):
         print(f"nombre del cliente: {self.nombre_cliente} - apellido cliente: {self.apellido_cliente}")
+        
+    def hacer_saludo(self, datosaludo):
+        print(f"{datosaludo} : {self.get_nombre}  {self.get_apellido}")
+    
